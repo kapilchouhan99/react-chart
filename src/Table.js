@@ -28,7 +28,7 @@ class Table extends React.Component {
   // Update List Item's state and Master Checkbox State
   onItemCheck(e, item) {
     let tempList = this.state.list;
-    debugger
+
     tempList.map((user) => {
       if (user.id === item.id) {
         user.selected = e.target.checked;
